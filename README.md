@@ -1,6 +1,8 @@
 # eCharts-Map-demo
 eCharts 某区域地图可视化
 
+> eCharts 地图笔记 : https://blog.csdn.net/u010707315/article/details/86080313 ([查看博客](https://blog.csdn.net/u010707315/article/details/86080313))
+
 # 运行环境
 
 需要在 localhost 中运行：
