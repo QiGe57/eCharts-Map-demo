@@ -7,7 +7,9 @@ eCharts 某区域地图可视化
 
   将文件放在tomcat的webapps中
   
-  1, 启动localhost  2, 通过 http://localhost:8080/test.html 访问
+  1, 启动localhost 
+  
+  2, 通过 ```http://localhost:8080/test.html``` 访问
 
 
 test:
