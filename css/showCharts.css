@@ -1,0 +1,209 @@
+ @charset="utf-8";
+*{margin:0;padding:0;border:0;font-family: "微软雅黑"}
+img{border:none;}
+ul ol{list-style:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+
+body{font-family: "微软雅黑";
+/*    background-image: url(../images/ibg.jpg);
+        background-size: 100%;*/
+        /*background-position:0px;*/
+        position: relative;
+}
+    .anchorBL{
+        display:none
+    }
+.bbg{
+    width: 100%;
+    height:900px;
+        background-image: url(../images/ibg.jpg);
+        background-size: 100%;
+        position: fixed;
+        top: 0;
+        /*background-position: 0;*/
+        z-index: -1;
+}
+.content_main{
+    width: 1300px;
+    /* height: 800px; */
+    margin: 25px auto;
+    overflow: hidden;
+}
+.ititle{
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin:20px  0;
+    font-weight: bold;
+    background-image: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+.ititle p{
+    font-size: 14px;
+    margin:10px 0;
+    font-weight: lighter;
+    color: #ddd
+}
+.lmain{
+    width: 30%;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+.lmain  .lchart1{
+    width:100%;
+    height: 300px;
+    /*background: red;*/
+}
+.lmain  .lchart2{
+    width:100%;
+    height: 350px;
+    margin-top: 20px;
+}
+
+.l1bg{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background: #335189;
+    opacity: 0.4;
+    left: 0;
+    border: 2px solid #252C61;
+}
+.l2bg{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    background: #335189;
+    opacity: 0.4;
+    left: 0;
+    bottom: 0;
+    border: 2px solid #252C61;
+}
+
+
+.mmain{
+    float: left;
+    width: 41%;
+    display: inline-block;
+    margin: 0 2%;
+}
+.mmain  .mchart1{
+    width:100%;
+    height: 400px;
+    /*background: red;*/
+}
+.mmain  .mchart2{
+    width:100%;
+    height: 250px;
+   margin-top: 20px;
+    /*background: green;*/
+    position: relative;
+}
+.mmain  .mchart2 .mC1{
+    width: 45%;
+    /*background:red;*/
+     height: 250px;
+     float: left;
+}
+.mmain  .mchart2 .mC2{
+    width: 54%;
+    /*background:gray;*/
+     height: 250px;  float: right;
+}
+.m21bg{
+    width: 45%;
+    height: 250px;
+    position: absolute;
+    background: #335189;
+    opacity: 0.4;
+    left: 0;
+    border: 2px solid #252C61;
+}
+.m22bg{
+    width: 51%;
+    height: 250px;
+    position: absolute;
+    background: #335189;
+    opacity: 0.4;
+    right: 0;
+    border: 2px solid #252C61;
+}
+
+
+.rmain{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+.rmain  .rchart1{
+    width:100%;
+    height: 210px;
+    /*background: #00040C;*/
+}
+.rmain  .rchart2{
+    width:100%;
+    height: 200px;
+    /*background: green;*/
+    margin-top: 20px
+}
+.rmain  .rchart3{
+    width:100%;
+    height: 220px;
+    /*background: green;*/
+    margin-top: 20px
+}
+.r1bg{
+    width: 100%;
+    height: 210px;
+    position: absolute;
+    background: #335189;
+    opacity: 0.4;
+    left: 0;
+    border: 2px solid #252C61;
+}
+.r2bg{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    background: #335189;
+    opacity: 0.4;
+    left: 0;
+    top:230px;
+    border: 2px solid #252C61;
+}
+.r3bg{
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    background: #335189;
+    opacity: 0.4;
+    left: 0;
+    bottom: 0;
+    border: 2px solid #252C61;
+}
+
+
+.chart_main{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top:50px;
+}
+.c_div{
+         flex:1;
+        height: 300px;
+        margin:15px;
+        padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 15px #ccc;
+}
+
+
+
+
+
+
