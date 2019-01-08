@@ -1,9 +1,12 @@
 # eCharts-Map-demo
 eCharts 某区域地图可视化
 
-#运行环境
+# 运行环境
+
 需要在 localhost 中运行：
+
   将文件放在tomcat的webapps中
+  
   1, 启动localhost  2, 通过 http://localhost:8080/test.html 访问
 
 
